@@ -14,13 +14,10 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px "Times New Roman", serif;
   font-size: small;
   text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -75,11 +72,13 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 1em;
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #000;
 }
 
 .site .header h1.title a:hover {
@@ -170,3 +169,8 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+#home h2.news {
+    font-size: 4em;
+    line-height: 1em;
+    text-align: center;
+}
