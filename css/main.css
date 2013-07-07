@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px "Times New Roman", serif;
+  font: 13.34px "EB Garamond", "Times New Roman", serif;
   font-size: small;
   text-align: center;
 }
@@ -60,7 +60,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 740px;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -71,7 +71,6 @@ ul.posts span {
 }
 
 .site .header h1.title {
-  display: inline-block;
   text-align: center;
   font-size: 5em;
   margin-bottom: 1em;
@@ -170,7 +169,7 @@ ul.posts span {
 /*****************************************************************************/
 
 #home h2.news {
-    font-size: 4em;
-    line-height: 1em;
+    font-size: 2.5em;
+    line-height: 1.3em;
     text-align: center;
 }
