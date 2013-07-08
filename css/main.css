@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 0.8em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -73,7 +73,7 @@ ul.posts span {
 .site .header h1.title {
   text-align: center;
   font-size: 5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 
 .site .header h1.title a {
