@@ -12,6 +12,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
         <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
         <script>
           WebFont.load({
@@ -27,6 +28,8 @@
           <div class="site">
             <div class="header">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <div id="timeline"></div>
+              <script src="/js/timeline.js"></script>
             </div>
 
                 {{ content }}

@@ -60,7 +60,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: left;
-  width: 50em;
+  width: 750px;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -186,3 +186,26 @@ ul.posts span {
     width: 23em;
     margin: 1em;
 }
+
+.timeline {
+  stroke: rgb(170, 170, 170);
+  stroke-width: 4px;
+  shape-rendering: crispEdges;
+} 
+
+circle {
+  fill: white;
+  stroke-width: 2px;
+}
+
+circle.news {
+  stroke: #a00;
+}
+
+circle.pub {
+  stroke: #111;
+}
+
+circle.today {
+  stroke: #a0a;
+]
